@@ -1,0 +1,76 @@
+ html body{
+    background-color: brown;
+}
+#word{
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    font-weight:bold;
+    color: white;
+}
+#input{
+    border-radius:10px;
+}
+#group1{
+display: flex;
+justify-content: center;
+position: relative;
+top:2vw;
+}
+#line{
+    position: relative;
+    top: 4vw;
+    border: 1px solid black;
+}
+#word1{
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+}
+#img{
+    width:25vvw;
+    height:25vh;
+}
+#img1{
+    display:flex;
+    justify-content: center;
+}
+#word2{
+    margin-top: 20px;
+    color: white;
+}
+#line2{
+    border: 1px solid black;
+}
+#word3{
+    margin-left:10px;
+    color: white;
+}
+.meal-item{
+    margin-bottom: 1rem;
+    width: calc(33.33% - 1rem);
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.meal-item img {
+    width:20vw;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom:30px ;
+}
+#display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.meal-item img:hover{
+    transform: scale(1.25);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6); 
+}

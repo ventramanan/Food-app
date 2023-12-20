@@ -1,0 +1,91 @@
+body{
+    background-image: url("./Screenshot\ 2023-12-19\ 100951.png");
+    margin: 0;
+    padding: 0;
+    background-size:100% 100%;
+    background-position:center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+#about {
+    color: white;
+}
+#services{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#div{
+    color: white;
+    background-color: black;
+}
+#para{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#bt{
+
+   padding: 10px 20px;
+   font-size: 16px;
+   text-align: center;
+   text-decoration: none;
+   border-radius:20px ;
+   background-color: rgb(19, 91, 19) ;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+}
+#about{
+    color: white;
+}
+#up{
+    color: white;
+}
+#ser{
+    color: white;
+}
+#sub{
+    color: white;
+}
+#ex{
+    color: inherit;
+}
+#bt:hover{
+    color: black;
+}
+#button1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 90vh;
+}
+.expanded-content {
+    font-style: italic;
+    color: #007bff;
+}
+.custom-font {
+    font-family: 'Arial', sans-serif;
+}
+.content-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+}
+@media(max-width:1024px){
+   body{
+    margin: 0;
+    padding: 0;
+    background-size:100% 100%;
+    background-position:center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+   }  
+}
+

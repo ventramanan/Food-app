@@ -1,6 +1,10 @@
  html body{
     background-color: brown;
 }
+
+*{
+    transition: 0.5s;
+}
 #word{
     text-align: center;
     margin-top: 20px;
@@ -46,7 +50,7 @@ top:2vw;
     margin-left:10px;
     color: white;
 }
-.meal-item{
+.meals{
     margin-bottom: 1rem;
     width: calc(33.33% - 1rem);
     box-sizing: border-box;
@@ -54,7 +58,7 @@ top:2vw;
     vertical-align: top;
     position: relative;
 }
-.meal-item img {
+.meals img {
     width:20vw;
     height: auto;
     border-radius: 8px;
@@ -70,7 +74,60 @@ top:2vw;
     font-weight: bold;
     margin-top: 30px;
 }
-.meal-item img:hover{
+.meals img:hover{
     transform: scale(1.25);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6); 
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid brown;
+    max-width: 600px;
+    width: 80%;
+    text-align: center; 
+}
+
+.modal-content img {
+    max-width: 50%; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media(max-width:1024px){
+    .modal-body iframe{
+        width: 70vw;
+        height: 70vw;
+    }
+}
+
+

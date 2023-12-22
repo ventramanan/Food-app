@@ -18,3 +18,5 @@ This is a basic food search app using api where the user will search using the s
 I got one extra API from this website
 
 https://www.themealdb.com/api.php
+
+I used bootstrap  Which ships with vanilla CSS

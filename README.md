@@ -15,6 +15,6 @@ This is a basic food search app using api where the user will search using the s
 
 -popular
 
-I got one extra link from this website
+I got one extra API from this website
 
 https://www.themealdb.com/api.php

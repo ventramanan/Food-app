@@ -1,7 +1,4 @@
-const button=document.getElementById("bt")
-button.addEventListener("click",()=>{
-    window.location.href="./main.html";
-})
+
 function showAboutUs() {
     var aboutUsContent = document.getElementById('about-us');
     aboutUsContent.classList.add('show');

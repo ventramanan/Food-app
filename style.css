@@ -51,16 +51,7 @@ body{
 #ex{
     color: inherit;
 }
-#bt:hover{
-    color: black;
-}
-#button1{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: column;
-    height: 90vh;
-}
+
 .expanded-content {
     font-style: italic;
     color: #007bff;
@@ -88,10 +79,7 @@ body {
     height: 120vh;
     width: 100vw;
    }
-   #button1{
-    position: relative;
-    top: 150px;
-
-   }
 }
+
+
 

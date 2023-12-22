@@ -3,10 +3,15 @@ This is a basic food search app using api where the user will search using the s
 
 #features
 -sign up
+
 -subscribe
+
 -about us 
+
 -services
+
 -contact
+
 -popular
 
 

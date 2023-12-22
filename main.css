@@ -128,6 +128,10 @@ top:2vw;
         width: 70vw;
         height: 70vw;
     }
+    #contact{
+        position: relative;
+        right:3vw ;
+    }
 }
 
 

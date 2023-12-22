@@ -32,22 +32,4 @@ function showAlert(event,type){
 
     }
 }
-document.addEventListener("DomcontentLoaded",function(){
-    createSnowflakes();
-})
-function createSnowflakes(){
-    const snowflakeContainer=document.createElement("div")
-    snowflakeContainer.classList.add('snowflake')
-    document.body.appendChild(snowflakeContainer)
 
-
-    for(let i=0;i<30;i++){
-        const snowflake=document.createElement('div')
-        snowflake.classList.add('snowflake')
-        snowflake.style.left=`${Math.random()*window.innerWidth}px`
-        snowflake.style.animationDuration = `${Math.random() * 3 + 2}s`; // Adjust the duration as needed
-        snowflakeContainer.appendChild(snowflake);
-        
-
-    }
-}
